@@ -1,0 +1,151 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+
+\usepackage{amsmath}
+
+% moderncv themes
+\moderncvstyle{banking}
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{rgb}{0.95,0.20,0.20}% red
+\definecolor{color2}{rgb}{0.0,0.0,0.0}% dark grey
+%\moderncvcolor{red}
+
+
+\AtBeginDocument{
+\hypersetup{colorlinks,urlcolor=blue}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand*{\namefont}{\fontsize{50}{52}\mdseries\upshape}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[top=2cm, bottom=2cm, left=2.8cm, right=2.8cm]{geometry}
+%\usepackage[scale=0.75]{geometry}
+
+
+\usepackage{xeCJK}
+%\setsansfont{Monaco}
+
+\setCJKmainfont{宋体}
+\setCJKsansfont{黑体}
+\setCJKmonofont{楷体}
+
+\usepackage{xunicode}
+
+% personal data
+\firstname{王}
+\familyname{跃}
+%\title{Resumé title (optional)} 
+\address{四川省成都金牛区二环路北一段 111号}{西南交通大学九里堤校区}{邮编：610031}
+\mobile{+86~152~8106~5825}                            
+\email{shrimpek\_kk@163.com}                  
+\homepage{www.unkeltao.com}
+%\extrainfo{additional information}   
+      
+%\quote{Some quote (optional)}      
+
+\begin{document}
+\makecvtitle
+%\maketitle
+
+\section{个人信息}
+\cvitem{姓名}{王跃}
+\cvitem{年龄}{23(1990-11-2)}
+\cvitem{毕业时间}{2016-6}
+\cvitem{就业意向}{研发工程师}
+\photo[64pt][0.4pt]{jianli}  
+\section{教育经历}
+\cventry{2009--2013}{计算机科学与技术专业}{\textsf{西南交通大学（211、特色985工程）}}{四川省成都市}
+{工学学士}
+{保送至西南交通大学攻读研究生}
+{}
+%{主干课程：	离散数学。}
+
+~\\
+\cventry{2013--至今}{计算机技术专业}{\textsf{西南交通大学}}{四川省成都市}
+{工学硕士}
+{}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{相关经验}
+\subsection{项目经验}
+\cventry{2013-10}{Hadoop，数据挖掘分析}{\textsf{北京市出租车GPS预测}}{}{}{
+	这个项目实现利用北京市一个月的所以出租车GPS位置数据（50G）与北京市路网信息图进行简要建模，向用户告知所在位置5分钟内打到车的概率与第一辆出租车经过的预计时间。
+	\begin{description}
+	%	\item[\textsf{项目主页}] https://gitcafe.com/UESTC\_ACM/cdoj
+		\item[\textsf{开发平台}] Jdk1.7, Hadoop 1.1.0, c/c++
+		\item[\textsf{开发工具}] Eclipse, Sqllite, Sublime Text
+		\item[\textsf{相关框架}] MapReduce
+		\item[\textsf{个人职责}] 负责前期出租车GPS位置数据的预处理和提取出相关有用的信息（MapReduce）与利用已经导入数据库中的信息进行快速查询给出结果（C/C++）。
+	\end{description}
+}
+
+~\\
+\cventry{2013-5}{本科毕业设计}{\textsf{基于MapReduce的模糊K-Means设计与实现}}{}{}{
+	\begin{description}
+		\item{\textsf{开发平台}} JDK1.7, Hadoop 1.0.4
+		\item{\textsf{开发工具}} Sublime Text, Eclipse, Matlab
+		\item 利用Mapreduce框架和Hadoop平台，设计出能够处理大数据的模糊K-Means聚类方法。
+	\end{description}
+}
+~\\
+\cventry{2012-2013}{Web开发,JavaEE}{\textsf{西南交大上机考试系统}}{}{}{
+	这个项目实现一个在线考试系统，能够进行在线判题并给出结果，用来提供在线测评服务。此系统用于学校 大学生C/C++、Java上机考试以及西南交大研究生复试上机测试。
+	\begin{description}
+	%	\item[\textsf{项目主页}] https://gitcafe.com/UESTC\_ACM/cdoj
+		\item[\textsf{开发平台}] Jdk1.7, J2ee platform
+		\item[\textsf{开发工具}] MyEclipse, Sqlserver, Chrome
+		\item[\textsf{相关框架}] Struts2, Spring, Hibernate, jQuery
+		\item[\textsf{个人职责}] 参与数据库设计，以及后台的相关工作。
+	\end{description}
+}
+\subsection{活动经历}
+\cventry{2010--2011}{组员，Web开发}{\textsf{学校星网开发小组}}{}{}{
+	\begin{itemize}
+		\item{\textsf{主要工作}} 开发与维护学校星网论坛。
+	\end{itemize}
+}
+~\\
+\cventry{2011--2013}{成员，Web开发}{\textsf{西南交大网站中心}}{}{}{
+	\begin{itemize}
+		\item{\textsf{主要工作}} 重构或开发网络中心相关业务管理平台。
+	\end{itemize}
+}
+~\\
+\cventry{2011--2013}{队员，算法学习}{\textsf{西南交大ACM校队}}{}{}{
+	\begin{itemize}
+		\item 学习各种算法如数论，动态规划，常用数据结构，拥有较强的代码能力。
+		\item 在 ACM/ICPC 的竞赛中，积累了大量团队合作解题的经验，有很强的团队意识。
+	\end{itemize}
+}
+\section{荣誉}
+\subsection{ACM-ICPC}
+\cvline{2013-6}{第二届西南地区暨第五届四川省ACM/ICPC程序设计大赛 \textsf{金奖}}
+\cvline{2012-6}{第一届西南地区暨第四届四川省ACM/ICPC程序设计大赛 \textsf{一等奖}}
+\cvline{2012-5}{第 37 届 ACM-ICPC 亚洲区预选赛（浙江金华赛区）邀请赛 \textsf{铜牌}}
+\subsection{其他}
+\cvline{2012}{校级综合奖学金\textsf{一等}}
+\section{专业技能}
+\subsection{语言技能}
+\cvitem{\textsf{全国大学英语四级考试}}{通过}
+
+\subsection{计算机技能}
+\cvitem{\textsf{操作系统}}{linux(Ubuntu), Windows}
+\cvitem{\textsf{版本控制}}{Subversion, Git}
+\cvitem{\textsf{编程语言}}{C, C++, Java(Java EE), PHP}
+\cvitem{\textsf{开发工具}}{Vim, Eclipse/MyEclipse, Sublime Text}
+\cvitem{\textsf{其它工具}}{MySQL, \LaTeX}
+%\cvitem{\textsf{相关证书}}{全国计算机等级考试四级网络工程师}
+
+\subsection{其它技能}
+\cvitem{\textsf{问题解决}}{能在较短时间内独立思考、周密分析问题并形成解决问题的思路；由于经常参加程序竞赛，提升了算法设计能力和编程技巧、养成了良好的协作精神、锻炼了心理素质和临场应变能力}
+\cvitem{\textsf{学习能力}}{对新技术有浓厚的兴趣，有很强的自学能力}
+\cvitem{\textsf{团队合作}}{拥有良好的沟通能力，有很强的团队意识}
+
+\end{document}
