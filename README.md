@@ -4,7 +4,7 @@ MyCv
 
 个人简历
 
-添加个人简历中文版~~~
+site: http://www.unkeltao.com
 
 使用Latex中的CV模板~
 
