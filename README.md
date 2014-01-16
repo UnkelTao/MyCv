@@ -14,8 +14,10 @@ ZH中：
 
 unkeltao.pdf为简历PDF
 
-unkeltao.tex 为latex源码
+unkeltao.tex 为latex源码P
 
-run.bat 为编译脚本
+run.bat 为编译脚本P
 
 clean.bat 为清理脚本
+
+html: html版本
