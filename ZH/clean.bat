@@ -9,3 +9,4 @@ del *.thm /s
 del *.toc /s
 del *.gz /s
 del *.out /s
+del *.fls /s
